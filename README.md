@@ -5,6 +5,8 @@ The motive behind this project is to provide to prospective employers an example
 
 ![Business Card Front](img/business_card_front.jpg)
 
+![Business Card Traces](img/business_card_traces.jpg)
+
 ## Bill of Materials
 | Description      | Ref      | Component Value | Part #            | Link                                                                                                        |
 | ---------------- | -------- | --------------- | ----------------- | ----------------------------------------------------------------------------------------------------------- |
