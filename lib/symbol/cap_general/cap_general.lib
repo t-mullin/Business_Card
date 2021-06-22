@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# c_gen
+#
+DEF c_gen C 0 40 Y Y 1 F N
+F0 "C" 0 -125 50 H V C CNN
+F1 "c_gen" 0 -125 50 H V C CNN
+F2 "capacitor_general:c_gen" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+F4 "10n" 150 -75 50 H V C CNN "Capacitance"
+DRAW
+P 2 0 1 0 -25 50 -25 -50 N
+P 2 0 1 0 25 -50 25 50 N
+X ~ 1 -125 0 100 R 50 50 1 1 P
+X ~ 2 125 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

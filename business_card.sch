@@ -1,0 +1,254 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L resistor_general:r_gen R1
+U 1 1 60CCF700
+P 4825 3550
+F 0 "R1" V 4746 3638 50  0000 L CNN
+F 1 "r_gen" V 4837 3638 50  0000 L CNN
+F 2 "resistor_general:r_gen" H 4925 3350 50  0001 C CNN
+F 3 "" H 4925 3350 50  0001 C CNN
+F 4 "1k" V 4928 3638 50  0000 L CNN "Resistance"
+	1    4825 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L cap_general:c_gen C1
+U 1 1 60CD03D0
+P 4825 4100
+F 0 "C1" V 4734 4188 50  0000 L CNN
+F 1 "c_gen" V 4825 4188 50  0000 L CNN
+F 2 "capacitor_general:c_gen" H 4825 3975 50  0001 C CNN
+F 3 "" H 4825 3975 50  0001 C CNN
+F 4 "0.22u" V 4916 4188 50  0000 L CNN "Capacitance"
+	1    4825 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L cap_general:c_gen C2
+U 1 1 60CD0E4A
+P 6800 4375
+F 0 "C2" V 6709 4463 50  0000 L CNN
+F 1 "c_gen" V 6800 4463 50  0000 L CNN
+F 2 "capacitor_general:c_gen" H 6800 4250 50  0001 C CNN
+F 3 "" H 6800 4250 50  0001 C CNN
+F 4 "0.22u" V 6891 4463 50  0000 L CNN "Capacitance"
+	1    6800 4375
+	0    1    1    0   
+$EndComp
+$Comp
+L NE556N:NE556N_gen U1
+U 1 1 60CD94BF
+P 6175 3750
+F 0 "U1" H 6175 4415 50  0000 C CNN
+F 1 "NE556N_gen" H 6175 4324 50  0000 C CNN
+F 2 "NE556N:DIP254P762X508-14" H 8075 3425 50  0001 C CNN
+F 3 "" H 8075 3425 50  0001 C CNN
+	1    6175 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3325 4825 3325
+Wire Wire Line
+	5800 3825 5600 3825
+Wire Wire Line
+	4825 3975 4825 3825
+Connection ~ 4825 3825
+Wire Wire Line
+	5800 3425 5600 3425
+Wire Wire Line
+	5600 3425 5600 3825
+Connection ~ 5600 3825
+Wire Wire Line
+	5600 3825 4825 3825
+Wire Wire Line
+	4825 3775 4825 3825
+Wire Wire Line
+	4825 3350 4825 3325
+Wire Wire Line
+	5800 3625 5700 3625
+Wire Wire Line
+	5700 3625 5700 2975
+$Comp
+L power:GND #PWR0101
+U 1 1 60CDE012
+P 4825 4350
+F 0 "#PWR0101" H 4825 4100 50  0001 C CNN
+F 1 "GND" H 4830 4177 50  0000 C CNN
+F 2 "" H 4825 4350 50  0001 C CNN
+F 3 "" H 4825 4350 50  0001 C CNN
+	1    4825 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60CDE66C
+P 5725 4025
+F 0 "#PWR0102" H 5725 3775 50  0001 C CNN
+F 1 "GND" H 5730 3852 50  0000 C CNN
+F 2 "" H 5725 4025 50  0001 C CNN
+F 3 "" H 5725 4025 50  0001 C CNN
+	1    5725 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0103
+U 1 1 60CDEA83
+P 4825 2700
+F 0 "#PWR0103" H 4825 2550 50  0001 C CNN
+F 1 "+BATT" H 4840 2873 50  0000 C CNN
+F 2 "" H 4825 2700 50  0001 C CNN
+F 3 "" H 4825 2700 50  0001 C CNN
+	1    4825 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0104
+U 1 1 60CDF648
+P 5700 2975
+F 0 "#PWR0104" H 5700 2825 50  0001 C CNN
+F 1 "+BATT" H 5715 3148 50  0000 C CNN
+F 2 "" H 5700 2975 50  0001 C CNN
+F 3 "" H 5700 2975 50  0001 C CNN
+	1    5700 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0105
+U 1 1 60CDF9FF
+P 6675 3000
+F 0 "#PWR0105" H 6675 2850 50  0001 C CNN
+F 1 "+BATT" H 6690 3173 50  0000 C CNN
+F 2 "" H 6675 3000 50  0001 C CNN
+F 3 "" H 6675 3000 50  0001 C CNN
+	1    6675 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3325 6675 3325
+Wire Wire Line
+	6675 3325 6675 3000
+Wire Wire Line
+	6550 3725 6675 3725
+Wire Wire Line
+	6675 3725 6675 3625
+Connection ~ 6675 3325
+Wire Wire Line
+	6550 3425 6800 3425
+Wire Wire Line
+	6800 3425 6800 3525
+Wire Wire Line
+	6550 3525 6800 3525
+Connection ~ 6800 3525
+Wire Wire Line
+	6800 3525 6800 4250
+$Comp
+L power:GND #PWR0106
+U 1 1 60CDE85D
+P 6800 4500
+F 0 "#PWR0106" H 6800 4250 50  0001 C CNN
+F 1 "GND" H 6805 4327 50  0000 C CNN
+F 2 "" H 6800 4500 50  0001 C CNN
+F 3 "" H 6800 4500 50  0001 C CNN
+	1    6800 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3925 5725 3925
+Wire Wire Line
+	5725 3925 5725 4025
+Wire Wire Line
+	4825 4350 4825 4225
+$Comp
+L Device:Speaker LS1
+U 1 1 60CE26E1
+P 7400 3625
+F 0 "LS1" H 7570 3621 50  0000 L CNN
+F 1 "Speaker" H 7570 3530 50  0000 L CNN
+F 2 "speaker_general:speaker_gen" H 7400 3425 50  0001 C CNN
+F 3 "~" H 7390 3575 50  0001 C CNN
+	1    7400 3625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3625 6675 3625
+Connection ~ 6675 3625
+Wire Wire Line
+	6675 3625 6675 3325
+Wire Wire Line
+	5800 3725 5650 3725
+Wire Wire Line
+	5650 3725 5650 4375
+Wire Wire Line
+	5650 4375 6550 4375
+Wire Wire Line
+	6550 4375 6550 3925
+$Comp
+L resistor_general:photores_gen PR1
+U 1 1 60CE5E3E
+P 4825 3025
+F 0 "PR1" V 4779 3228 50  0000 L CNN
+F 1 "photores_gen" V 4870 3228 50  0000 L CNN
+F 2 "resistor_general:photores_gen" H 4900 2950 50  0001 C CNN
+F 3 "" H 4900 2950 50  0001 C CNN
+	1    4825 3025
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor_general:photores_gen PR2
+U 1 1 60CE6517
+P 7050 3325
+F 0 "PR2" H 7050 3665 50  0000 C CNN
+F 1 "photores_gen" H 7050 3574 50  0000 C CNN
+F 2 "resistor_general:photores_gen" H 7125 3250 50  0001 C CNN
+F 3 "" H 7125 3250 50  0001 C CNN
+	1    7050 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6825 3325 6675 3325
+Wire Wire Line
+	7275 3325 7275 3425
+Wire Wire Line
+	7275 3425 6800 3425
+Connection ~ 6800 3425
+Wire Wire Line
+	4825 3250 4825 3325
+Connection ~ 4825 3325
+Wire Wire Line
+	4825 2800 4825 2700
+$Comp
+L resistor_general:trimpot_gen TR1
+U 1 1 60CEFBB6
+P 6975 3950
+F 0 "TR1" V 6916 4238 50  0000 L CNN
+F 1 "trimpot_gen" V 7007 4238 50  0000 L CNN
+F 2 "resistor_general:trimpot_gen" H 7050 3875 50  0001 C CNN
+F 3 "" H 7050 3875 50  0001 C CNN
+	1    6975 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 3725 7175 3725
+Wire Wire Line
+	7175 3725 7175 3825
+Wire Wire Line
+	6975 4200 6650 4200
+Wire Wire Line
+	6650 4200 6650 3825
+Wire Wire Line
+	6650 3825 6550 3825
+$EndSCHEMATC

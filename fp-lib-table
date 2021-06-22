@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name capacitor_general)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/capacitor_general.pretty)(options "")(descr ""))
+  (lib (name resistor_general)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/resistor_general.pretty)(options "")(descr ""))
+  (lib (name slide_switch_general)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/slide_switch_general.pretty)(options "")(descr ""))
+  (lib (name speaker_general)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/speaker_general.pretty)(options "")(descr ""))
+  (lib (name NE556N)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/NE556N.pretty)(options "")(descr ""))
+  (lib (name QR_CODE)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/QR_CODE.pretty)(options "")(descr ""))
+)
