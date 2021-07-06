@@ -11,8 +11,7 @@ The motive behind this project is to provide to prospective employers an example
 | Description      | Ref      | Component Value | Part #            | Link                                                                                                        |
 | ---------------- | -------- | --------------- | ----------------- | ----------------------------------------------------------------------------------------------------------- |
 | Resistor         | R1       | 1K              | CFR-25JB-52-1K    | [Digi-key](https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-1K/96)                              |
-| Capacitor        | C1, C2   | 0.22u           | 
-K224M20X7RF53H5 | [Mouser](https://www.mouser.com/ProductDetail/Vishay-BC-Components/K224M20X7RF53H5?qs=ODefv%2FJbNkjoPr%252Bz4Qq7xw%3D%3D)            |
+| Capacitor        | C1, C2   | 0.22u           | K224M20X7RF53H5 | [Mouser](https://www.mouser.com/ProductDetail/Vishay-BC-Components/K224M20X7RF53H5?qs=ODefv%2FJbNkjoPr%252Bz4Qq7xw%3D%3D)            |
 | 556 Timer        | U1       | 556             | NE556N            | [Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/NE556N?qs=gb35HGp1gQKUkn%252B6zgU6RA%3D%3D) |
 | Photoresistor    | PR1, PR2 | 1k - 10k        | 161               | [Adafruit](https://www.adafruit.com/product/161)                                                            |
 | Trimmer Resistor | TR1      | 5k              | 3386T             | [Mouser](https://www.mouser.com/ProductDetail/Bourns/3386T-1-502LF?qs=0VqvB9JLnIv4eQGVkebFKQ%3D%3D)         | 
