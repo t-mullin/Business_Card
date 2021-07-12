@@ -36,7 +36,7 @@ I assembled the circuit in this order:
 7. IC
 
 ## Assembled Circuit
-Below is an assembled STG circuit. A demo of the circuit can be found here.
+Below is an assembled STG circuit. A demo of the circuit can be found here (Link will be added soon).
 ![Assembled STG](img/stg_built.jpg)
 
 ## Postmortem
