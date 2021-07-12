@@ -24,7 +24,7 @@ I used KiCad to draw up the schematic and designed a PCB to go with it. The PCB 
 | 9V Battery Clip  | Batt/9V  | 9V              | 235               | [Mouser](https://www.mouser.com/ProductDetail/Keystone-Electronics/235?qs=w4ABFRoM%2FL90W35cnqrFmA%3D%3D)   |
 
 ## Assembly Order
-For ease of assembly, start with the lower profile compoents and work up to the higher profile compoents.
+For ease of assembly, start with the lower profile components and work up to the higher profile components.
 
 I assembled the circuit in this order: 
 1. Resistor and Photoresistors 
