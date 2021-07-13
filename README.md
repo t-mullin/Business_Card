@@ -40,4 +40,4 @@ Below is an assembled STG circuit. A demo of the circuit can be found here: [STG
 ![Assembled STG](img/stg_built.jpg)
 
 ## Postmortem
-Overall, I happy with the final product. However, I may add an additional PCB, to this project, that swaps out the photoresistors for potentiometers. 
+Overall, I happy with the final product. ~~However, I may add an additional PCB, to this project, that swaps out the photoresistors for potentiometers.~~ Alternate version has been added. However, it untested. 
