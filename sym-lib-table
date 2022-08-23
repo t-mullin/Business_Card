@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name cap_general)(type Legacy)(uri ${KIPRJMOD}/lib/symbol/cap_general/cap_general.lib)(options "")(descr ""))
-  (lib (name resistor_general)(type Legacy)(uri ${KIPRJMOD}/lib/symbol/res_general/resistor_general.lib)(options "")(descr ""))
-  (lib (name NE556N)(type Legacy)(uri ${KIPRJMOD}/lib/symbol/NE556N/NE556N.lib)(options "")(descr ""))
-)

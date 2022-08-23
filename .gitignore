@@ -1,0 +1,8 @@
+#Folders
+/business_card-backups
+
+#Files
+*.zip
+\#*\#
+*.kicad_prl
+

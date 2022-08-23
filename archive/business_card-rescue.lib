@@ -1,0 +1,99 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# NE556N_gen-NE556N
+#
+DEF NE556N_gen-NE556N U 0 40 Y Y 1 F N
+F0 "U" 0 -375 50 H V C CNN
+F1 "NE556N_gen-NE556N" 50 -300 50 H V C CNN
+F2 "NE556N:DIP254P762X508-14" 175 -450 50 H I C CNN
+F3 "" 0 -375 50 H I C CNN
+DRAW
+S -275 500 275 -250 0 1 0 N
+X 1DISCH 1 -375 425 100 R 50 39 1 1 O
+X 2RST 10 375 25 100 L 50 39 1 1 I
+X 2CONT 11 375 125 100 L 50 39 1 1 I
+X 2THRES 12 375 225 100 L 50 39 1 1 I
+X 2DISCH 13 375 325 100 L 50 39 1 1 O
+X VCC 14 375 425 100 L 50 39 1 1 W
+X 1THRES 2 -375 325 100 R 50 39 1 1 I
+X 1CONT 3 -375 225 100 R 50 39 1 1 I
+X 1RST 4 -375 125 100 R 50 39 1 1 I
+X 1OUT 5 -375 25 100 R 50 39 1 1 O
+X 1TRIG 6 -375 -75 100 R 50 39 1 1 I
+X GND 7 -375 -175 100 R 50 39 1 1 P
+X 2TRIG 8 375 -175 100 L 50 39 1 1 I
+X 2OUT 9 375 -75 100 L 50 39 1 1 O
+ENDDRAW
+ENDDEF
+#
+# c_gen-cap_general
+#
+DEF c_gen-cap_general C 0 40 Y Y 1 F N
+F0 "C" 0 -125 50 H V C CNN
+F1 "c_gen-cap_general" 0 -125 50 H V C CNN
+F2 "capacitor_general:c_gen" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+F4 "10n" 150 -75 50 H V C CNN "Capacitance"
+DRAW
+P 2 0 1 0 -25 50 -25 -50 N
+P 2 0 1 0 25 -50 25 50 N
+X ~ 1 -125 0 100 R 50 50 1 1 P
+X ~ 2 125 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# photores_gen-resistor_general
+#
+DEF photores_gen-resistor_general PR 0 40 Y Y 1 F N
+F0 "PR" 75 -75 50 H V C CNN
+F1 "photores_gen-resistor_general" -250 -75 50 H V C CNN
+F2 "" 75 -75 50 H I C CNN
+F3 "" 75 -75 50 H I C CNN
+DRAW
+P 2 0 1 0 -125 175 -50 100 N
+P 2 0 1 0 -50 100 -75 100 N
+P 2 0 1 0 -50 100 -50 125 N
+P 2 0 1 0 25 100 -50 175 N
+P 2 0 1 0 25 100 0 100 N
+P 2 0 1 0 25 125 25 100 N
+P 11 0 1 0 -125 0 -100 50 -75 -50 -50 50 -25 -50 0 50 25 -50 50 50 75 -50 100 50 125 0 N
+X ~ 1 -225 0 100 R 50 39 1 1 P
+X ~ 2 225 0 100 L 50 39 1 1 P
+ENDDRAW
+ENDDEF
+#
+# r_gen-resistor_general
+#
+DEF r_gen-resistor_general R? 0 40 Y Y 1 F N
+F0 "R?" 100 -200 50 H V C CNN
+F1 "r_gen-resistor_general" -100 -200 50 H V C CNN
+F2 "resistor_general:r_gen" 100 -200 50 H I C CNN
+F3 "" 100 -200 50 H I C CNN
+F4 "1k" 100 -300 50 H V C CNN "Resistance"
+DRAW
+P 10 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 -50 125 0 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 225 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# trimpot_gen-resistor_general
+#
+DEF trimpot_gen-resistor_general TR 0 40 Y Y 1 F N
+F0 "TR" 75 -75 50 H V C CNN
+F1 "trimpot_gen-resistor_general" -225 -75 50 H V C CNN
+F2 "" 75 -75 50 H I C CNN
+F3 "" 75 -75 50 H I C CNN
+DRAW
+P 2 1 1 0 0 75 -25 100 N
+P 2 1 1 0 0 75 25 100 N
+P 3 1 1 0 -25 200 0 200 0 75 N
+P 14 1 1 0 -175 0 -150 50 -125 -50 -100 50 -75 -50 -50 50 -25 -50 0 50 25 -50 50 50 75 -50 100 50 125 -50 150 0 N
+X ~ 1 -275 0 100 R 50 50 1 1 P
+X ~ 2 -125 200 100 R 50 50 1 1 P
+X ~ 3 250 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
